@@ -1,0 +1,128 @@
+ *{
+	 margin:0;
+	 padding:0;
+	 box-sizing:border-box;
+ }
+ 
+ .container{
+	 margin:0 auto;
+	 width:80%;
+	 
+ }
+ 
+	 
+ body{
+	 background:linear-gradient( #00000017,#dcdcdc4d),url(../image/bg-image.jpg);
+	 background-size:cover;
+	 background-position-y:96%;
+	 height: 100vh;
+ }
+ 
+ .col6{
+	 width:50%;
+	 padding:0 15px;
+ }
+ 
+ .col12{
+	 width:100%;
+	 padding:0 15px;
+ }
+ 
+
+ .row{
+	 display:flex;
+	 margin:20px 0;
+	 
+ }
+ 
+ .map{
+	 padding: 44px 0;
+    display: flex;
+    justify-content: end;
+ }
+ 
+ .heading h1{
+	 font-family: 'Rubik', sans-serif;
+	 font-weight:300;
+	 font-size: 33px;
+ }
+ 
+ .heading p{
+	 font-family: 'Barlow', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+	padding: 10px 0;
+ }
+ 
+ .heading i{
+	     font-size: 31px;
+		 padding-right: 10px;
+ }
+ 
+ .para{
+	 font-family: 'Lato', sans-serif;
+	 padding: 18px 0;
+ }
+ .para h4{
+	 padding: 10px 0;
+	 font-weight: 600;
+ }
+ 
+ .para p{
+	 color: gray;
+ }
+ 
+ .pa{
+	 padding: 10px 0;
+ }
+ 
+ .form1{
+	  padding:24px;
+	 margin-top: 17px;
+ }
+  .text{
+	  padding: 0 15px;
+  }
+ 
+ 
+ .name input{
+	 padding: 18px 10px;
+    width: 100%;
+	outline: none;
+    border: none;
+ }
+ 
+ .name1 input{
+	 width: 100%;
+    padding: 13px;
+	outline:0;
+	outline: none;
+    border: none;
+ }
+ 
+
+ .message input{
+	 width: 100%;
+    padding: 26px 10px 42px 10px;
+	margin-top: 20px;
+	outline: none;
+    border: none;
+ }
+ 
+ 
+ .send{
+	 display: flex;
+    justify-content: center;
+	margin-top: 29px;
+ }
+
+ .send a{
+	 text-decoration:none;
+	 background-color:#109dd0;
+	 border-radius:5px;
+	 color:white;
+	 padding: 10px 28px;
+	 display: inline-block;
+	 font-family: 'Rubik', sans-serif;
+	 font-size: 15px;
+ }
